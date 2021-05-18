@@ -20,7 +20,7 @@ public class HttpTriggerFunction {
      * 1. curl -d "HTTP Body" {your host}/api/HttpExample
      * 2. curl "{your host}/api/HttpExample?name=HTTP%20Query"
      */
-    @FunctionName("HttpExample")
+    @FunctionName("HttpExample2")
     public HttpResponseMessage run(
             @HttpTrigger(
                 name = "req",
